@@ -6,7 +6,7 @@ on:
 jobs:
   build-application:
     name: Build application
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@v3
 
